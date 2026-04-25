@@ -1,1 +1,1 @@
-# More - your proxy utility
+# More - your vpn utility
