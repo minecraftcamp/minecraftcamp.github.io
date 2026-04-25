@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Unbounded:wght@200..900&display=swap');
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 12px;
+    backdrop-filter: blur(24px);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.name {
+    font-family: "Unbounded", sans-serif;
+    font-size: 32px;
+    padding: 0px 20px;
+    font-weight: 600;
+    margin: 0;
+    cursor: pointer;
+}
+
+.h12 {
+    font-family: "Unbounded", sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 24px;
+    cursor: default;
+}
+
+.divmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    z-index: 1;
+}
+
+.download {
+    background-color: black;
+    color: white;
+    font-family: "Unbounded", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 256px;
+    height: 48px;
+    cursor: pointer;
+    border: none;
+    outline-offset: 0;
+    outline: 0px rgba(0, 0, 0, 0) dashed;
+    transition: 0.15s cubic-bezier(.04,.18,.12,.87) all;
+}
+
+.download:hover {
+    outline-offset: 4px;
+    outline: 4px rgba(0, 0, 0, 1) dashed;
+    transform: scale(1.02);
+}
+
+.devs {
+    color: rgb(0, 0, 0);
+    font-family: "Unbounded", sans-serif;
+}
+
+.dev {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.dev1 {
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+    padding: 32px 64px;
+    padding-bottom: 24px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 0.15s cubic-bezier(.04,.18,.12,.87) all;
+    margin-right: 32px;
+}
+
+.devlogos {
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+}
+
+.devname {
+    color: rgb(255, 255, 255);
+    font-family: "Unbounded", sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.devopis {
+    color: rgb(255, 255, 255);
+    font-family: "Unbounded", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.dev1:hover {
+    transform: scale(1.02);
+}
+
+.paneldevs {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow-x: auto;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    font-family: "Unbounded", sans-serif;
+    font-size: 15px;
+    padding: 24px;
+}
+
+.aa {
+    color: white;
+    text-decoration: none;
+    text-align: end;
+    width: 100%;
+}
+
+.icons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
